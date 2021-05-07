@@ -1,14 +1,14 @@
 function calculateTriangleArea(base, height) {
   if ((base >= 0) && (height >= 0)) {
-  let tArea = (base * height) / 2;
+    let tArea = (base * height) / 2;
     return tArea;
   }
 }
 
 
 function calculateRectangleArea(length, width) {
-  let rArea = length * width;
-  if (rArea >= 0) {
+  if ((length >= 0) && (width >= 0)) {
+    let rArea = length * width;
     return rArea;
   }
 }
